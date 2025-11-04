@@ -1,12 +1,14 @@
  
-  PHISHSHIELD is a web application built to help you identify and avoid phishing websites. It leverages the power of machine learning, specifically Python and its libraries, to analyze website characteristics and predict their legitimacy. Stay safe online with PHISHSHIELD!
+  <p>PHISHSHIELD is a web application built to help you identify and avoid phishing websites. It leverages the power of machine learning, specifically Python and its libraries, to analyze website characteristics and predict their legitimacy. Stay safe online with PHISHSHIELD!
+  </p>
 
-Getting Started<
+**Getting Started**
  Download Project
  Download and extract the project files to your local machine
-Install Dependencies
-    cd PHISHSHIELD
-       pip install -r requirements.txt
+ Install Dependencies
+       cd PHISHSHIELD
+       pip install -r requirements.txt</br>
+       
 Run the Application
     Step 1: source "/Users/shilashrestha/Desktop/MCA Material/3 SEMESTER/Project/Phishing-Website-Checker/.venv/bin/activate"
     Step 2: python3 app.py
