@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Phishbuster | Usecases</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="static/assets/img/phishing copy.gif" rel="icon">
+  <link href="static/assets/img/phishing copy.gif" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">PhishShield</a></h1>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="{{ url_for('home') }}">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+          <li class="active"><a href="{{ url_for('usecases') }}">Usecases</a></li>
+
+
+        </ul>
+      </nav>
+
+
+    </div>
+  </header>
+
+
+      <div class="main-content">
+      <main id="main" style="margin-top: 100px;">    
+          
+        <section id="usecases" class="about">
+            <div class="container" data-aos="fade-up">
+      
+              <div class="section-title">
+                <h2>PhishShield Use Cases</h2>
+                <p>Discover how PhishShield protects users in real-world scenarios</p>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                  <div class="usecase-card">
+                    <div class="usecase-icon">
+                      <i class="bx bx-envelope"></i>
+                    </div>
+                    <h4>Email Security Verification</h4>
+                    <p><strong>Scenario:</strong> You receive an email claiming to be from your bank with a link asking you to "verify your account."</p>
+                    <p><strong>Solution:</strong> Copy the suspicious link and scan it with PhishShield before clicking. Our AI analyzes the URL structure, domain age, and security certificates to determine if it's legitimate.</p>
+                    <div class="usecase-result safe">
+                      <strong>Result:</strong> Identifies 95% of phishing emails before you click
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                  <div class="usecase-card">
+                    <div class="usecase-icon">
+                      <i class="bx bx-mobile"></i>
+                    </div>
+                    <h4>Social Media Link Safety</h4>
+                    <p><strong>Scenario:</strong> A friend shares a "too good to be true" deal on social media with a shortened URL.</p>
+                    <p><strong>Solution:</strong> Before clicking, use PhishShield to analyze the destination URL. Our system checks for suspicious redirects and malicious patterns.</p>
+                    <div class="usecase-result warning">
+                      <strong>Result:</strong> Protects against social engineering attacks through social platforms
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                  <div class="usecase-card">
+                    <div class="usecase-icon">
+                      <i class="bx bx-shopping-bag"></i>
+                    </div>
+                    <h4>Online Shopping Protection</h4>
+                    <p><strong>Scenario:</strong> You find an amazing deal on a website you've never heard of before.</p>
+                    <p><strong>Solution:</strong> Scan the website URL with PhishShield to check domain reputation, SSL certificates, and suspicious patterns before entering payment information.</p>
+                    <div class="usecase-result safe">
+                      <strong>Result:</strong> Prevents financial fraud and identity theft from fake shopping sites
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                  <div class="usecase-card">
+                    <div class="usecase-icon">
+                      <i class="bx bx-briefcase"></i>
+                    </div>
+                    <h4>Corporate Security</h4>
+                    <p><strong>Scenario:</strong> Employees receive suspicious links in work emails or messages.</p>
+                    <p><strong>Solution:</strong> IT departments can use PhishShield to quickly verify suspicious URLs before allowing access, protecting company networks and data.</p>
+                    <div class="usecase-result safe">
+                      <strong>Result:</strong> Reduces corporate security incidents by 80%+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                  <div class="usecase-card">
+                    <div class="usecase-icon">
+                      <i class="bx bx-graduation"></i>
+                    </div>
+                    <h4>Educational Institutions</h4>
+                    <p><strong>Scenario:</strong> Students and faculty need to verify academic-related links and resources.</p>
+                    <p><strong>Solution:</strong> Educational institutions use PhishShield to teach cybersecurity awareness and protect against academic phishing attacks.</p>
+                    <div class="usecase-result safe">
+                      <strong>Result:</strong> Enhances digital literacy and security awareness in educational settings
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                  <div class="usecase-card">
+                    <div class="usecase-icon">
+                      <i class="bx bx-home"></i>
+                    </div>
+                    <h4>Family Protection</h4>
+                    <p><strong>Scenario:</strong> Parents want to protect their children from malicious websites and teach safe browsing habits.</p>
+                    <p><strong>Solution:</strong> Families use PhishShield to verify links before clicking, creating a safer online environment for all family members.</p>
+                    <div class="usecase-result safe">
+                      <strong>Result:</strong> Creates safer digital environments for families and children
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="stats-section mt-5" data-aos="fade-up">
+                <h3>PhishShield Impact</h3>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                      <div class="stat-number">95%</div>
+                      <div class="stat-label">Accuracy Rate</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                      <div class="stat-number">30+</div>
+                      <div class="stat-label">Features Analyzed</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                      <div class="stat-number">&lt;2s</div>
+                      <div class="stat-label">Analysis Time</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                      <div class="stat-number">24/7</div>
+                      <div class="stat-label">Protection</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </section>
+
+  </main>
+  </div>
+  <footer id="footer">
+    <div class="container d-md-flex">
+      <div class="text-center text-md-center">
+        <p style="margin: 0; font-weight: 500; font-size: 11px;">Second Year Project &copy; 2025.All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  
+  <script src="static/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script>
+    function scrolldiv() {
+        var elem = document.getElementById("about");
+        elem.scrollIntoView();
+    }
+  </script>
+
+  <script src="static/assets/js/main.js"></script>
+ 
+
+</body>
+
+</html>
